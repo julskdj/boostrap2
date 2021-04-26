@@ -1,0 +1,51 @@
+[
+    {
+        "usuario": "Juls",
+        "contraseña": "Zte225",
+        "nombre": "Julio",
+        "apellido": "Donado",
+        "correo": "Julio22567@hotmail.com",
+        "rol": "Admin"
+        
+    },
+    {
+        "usuario": "Felix",
+        "contraseña": "1244",
+        "nombre": "Felix",
+        "apellido": "Hoyos",
+        "correo": "Felix1234@hotmail.com",
+        "rol": "Admin"
+    },
+    {
+        "usuario": "Sile",
+        "contraseña": "febrero",
+        "nombre": "Silena",
+        "apellido": "Sanjuan",
+        "correo": "Silena@hotmail.com",
+        "rol": "visitante"
+    },
+    {
+        "usuario": "Majo",
+        "contraseña": "1234",
+        "nombre": "Maria",
+        "apellido": "Higgins",
+        "correo": "MajoHiggins@hotmail.com",
+        "rol": "Admin"
+    },
+    {
+        "usuario": "Evelyn",
+        "contraseña": "1234",
+        "nombre": "Evelyn",
+        "apellido": "Cerro",
+        "correo": "Ecerro@hotmail.com",
+        "rol": "visitante"
+    },
+    {
+        "usuario": "User",
+        "contraseña": "1234",
+        "nombre": "Usuario",
+        "apellido": "Generico",
+        "correo": "generic@hotmail.com",
+        "rol": "visitante"
+    }
+]

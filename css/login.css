@@ -1,0 +1,10 @@
+body{
+  background: #0f31a0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#0d6efd, #2379fd, #3683fc, #478dfa, #5797f8, #5797f8, #5797f8, #5797f8, #478dfa, #3683fc, #2379fd, #0d6efd);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#0d6efd, #2379fd, #3683fc, #478dfa, #5797f8, #5797f8, #5797f8, #5797f8, #478dfa, #3683fc, #2379fd, #0d6efd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.bg{
+  background-image: url(../Img/pexels-pixabay-33545.jpg);
+  background-position: center center;
+}

@@ -1,0 +1,21 @@
+main{
+    background-color: rgb(204, 204, 204);
+    padding-bottom: 10px;
+}
+.marketing{
+    padding-top: 20px;
+    margin-bottom: 50px;
+    
+    background-color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(204, 204, 204);
+}
+
+.alink{
+    text-decoration: none;
+    font-size: 30px;
+}
