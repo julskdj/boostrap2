@@ -7,7 +7,7 @@ form.addEventListener("submit", function (event) {
     let password = document.getElementById("floatingPassword").value;
     let bandera = null;
    
-        fetch("../json/usuarios.json")
+        fetch("./json/usuarios.json")
             .then(function (res) {
                 return res.json();
             })
