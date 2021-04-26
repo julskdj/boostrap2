@@ -17,7 +17,7 @@ form.addEventListener("submit", function (event) {
                         if (validar.contraseña == password) {
                             bandera = true;
                             localStorage.setItem('user',JSON.stringify(Username))
-                            location.href = "../views/index.html"
+                            location.href = "./views/index.html"
                         } else {
                             alert("contraseña incorrecta");
                             bandera = true;
