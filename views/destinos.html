@@ -24,14 +24,14 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">LOGO</a>
+            <a class="navbar-brand" href="inicio.html">LOGO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
                 </li><li class="nav-item">
                     <a class="nav-link" href="destinos.html">Destinos</a>
                   </li>
@@ -50,8 +50,7 @@
                 </li>
               </ul>
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <div class="text-light" id="usuario"></div>
               </form>
             </div>
           </div>
@@ -91,7 +90,7 @@
             
             <div>
                 <div class="table-responsive">
-                  <table class="table table-primary">
+                  <table class="table table-primary" id="destinos">
                     <thead class="table-dark">
                         <tr>
                           <th scope="col">#</th>
@@ -146,9 +145,11 @@
                   <br>
 
             </div>
-        
-            
-        
+            <br>
+            <div class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1958.3431766426916!2d-74.78853302411567!3d10.987029998035094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDU5JzEzLjMiTiA3NMKwNDcnMTQuOCJX!5e0!3m2!1ses-419!2sco!4v1619738586776!5m2!1ses-419!2sco" width="600" height="450" style="border:0;  max-width: 100%;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <br>
           </div><!-- /.container -->
 
 
@@ -227,6 +228,7 @@
   </footer>
   <!-- Footer -->
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="../js/destinos.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 </html>
